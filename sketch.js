@@ -41,9 +41,9 @@ function setup(){
 function draw(){
     background(backgroundImg);
     Engine.update(engine);
-    console.log(box2.body.position.x);
-    console.log(box2.body.position.y);
-    console.log(box2.body.angle);
+    console.log("hello , how are you?");
+    console.log("I'm fine what abt you?");
+    console.log("I'm feeling gr8!");
     box1.display();
     box2.display();
     ground.display();
